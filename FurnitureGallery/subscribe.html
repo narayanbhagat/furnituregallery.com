@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subscribe</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  .navbar-left {
+    float: right!important;
+	}
+	.navbar-inverse .navbar-brand {
+    color: white;
+	}
+	
+	.navbar-inverse .navbar-nav>li>a {
+    color: white;
+	}
+	.navbar-inverse {
+    background-color: #07abbb;
+    border-color: #07abbb;
+}
+  	.spacer{
+  		height: 50px;
+  		width: 100%;
+  	}
+  </style>
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron" style="background-image: url('images/jumbo-bg.jpg');height: 200px;">
+			
+		</div>
+		<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <a class="navbar-brand" href="index.html">AwesomeSite.com</a>
+			    </div>
+			    <ul class="nav navbar-nav">
+			      <li class="active"><a href="index.html">Home</a></li>
+			      <li><a href="video-page.html">Video</a></li>
+			      <li><a href="#">Music</a></li>
+			      <li><a href="#">Album</a></li>
+			      <li><a href="subscribe.html">Subscribe</a></li>
+			    </ul>
+			    <form class="navbar-form navbar-left">
+			      <div class="input-group">
+			        <input type="text" class="form-control" placeholder="Search">
+			        <div class="input-group-btn">
+			          <button class="btn btn-default" type="submit">
+			            <i class="glyphicon glyphicon-search"></i>
+			          </button>
+			        </div>
+			      </div>
+			    </form>
+			  </div>
+		</nav>
+		<!--end of navigation-->
+	<div class="spacer"></div>
+	<div class="panel panel-default">
+		<center><img src="images/newsletter.jpg"></center><br>
+			<div class="row">
+				<div class="col-md-2 col-sm-2"></div>
+				<div class="col-md-8 col-sm-8">
+						<form>
+						    <div class="input-group">
+						      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+						      <input id="username" type="text" class="form-control" name="username" placeholder="User Name" id="inputlg" >
+						    </div><br>
+						    <div class="input-group">
+						      <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+						      <input id="email" type="email" class="form-control" name="password" placeholder="Email" >
+						    </div><br>
+						    <center><button class="btn btn-danger btn-lg" style="width: 40%">Subscribe</button></center>
+		    			</form>
+		    			<br>
+				</div>
+				<div class="col-md-2 col-sm-2"></div>	
+			</div>			
+	</div>
+</div>
+</body>
+</html>
